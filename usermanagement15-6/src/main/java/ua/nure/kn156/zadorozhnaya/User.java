@@ -36,12 +36,21 @@ public String getFullName() {
 	return getLastName() + ", " + getFirstName();
 }
 public int getAge() {
-	Calendar calendar = Calendar.getInstance(); 
-	calendar.setTime(new Date());
-	int currentYear = calendar.get(Calendar.YEAR);
-	calendar.setTime(getDateOfBirthd());
-	int year = calendar.get(Calendar.YEAR);
-	return currentYear - year;
+
+    Calendar calendar = Calendar.getInstance();
+    calendar.setTime(new Date());
+    int currentYear = calendar.get(Calendar.YEAR);
+    int currentDay = calendar.get(Calendar.DAY_OF_YEAR);
+    calendar.setTime(getDateOfBirthd());
+    int year = calendar.get(Calendar.YEAR);
+    int day = calendar.get(Calendar.DAY_OF_YEAR);
+    int fullYears = currentYear - year;
+
+    if (currentDay < day)
+        fullYears--;
+
+    System.out.println(fullYears);
+    return fullYears;
 }
 
 }
