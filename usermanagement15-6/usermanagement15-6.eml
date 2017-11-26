@@ -7,5 +7,17 @@
 		<level name="jfcunit-2.08" value="project"/>
 		<level name="mockobjects-core-0.09" value="project"/>
 		<level name="regexp-1.3" value="project"/>
+		<level name="commons-logging" value="project"/>
+		<level name="jakarta-oro-2.0.8" value="project"/>
+		<level name="jdom" value="project"/>
+		<level name="jsp-api" value="project"/>
+		<level name="junit" value="project"/>
+		<level name="mockrunner-servlet" value="project"/>
+		<level name="nekohtml" value="project"/>
+		<level name="servlet-api" value="project"/>
+		<level name="xml-apis" value="project"/>
+		<level name="tomcat" value="project"/>
+		<level name="standard-1.1.1" value="project"/>
+		<level name="jstl-1.1.1" value="project"/>
 	</levels>
 </component>
