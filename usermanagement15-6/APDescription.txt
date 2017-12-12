@@ -1,0 +1,1 @@
+( ap-description  :name "MacBook-Pro-Radex.local:1099/JADE" :ap-services (set ( ap-service  :name fipa.mts.mtp.http.std :type fipa.mts.mtp.http.std :addresses (sequence http://MacBook-Pro-Radex.local:7778/acc))))

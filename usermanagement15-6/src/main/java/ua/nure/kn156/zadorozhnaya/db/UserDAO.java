@@ -53,6 +53,8 @@ public interface UserDAO {
      */
     Collection<User> findAll() throws DatabaseException;
 
+    Collection<User> find(String firstName, String lastName) throws DatabaseException;
+
     /**
      * Sets a connection factory that is used
      *
