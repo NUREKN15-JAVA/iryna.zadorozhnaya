@@ -19,5 +19,9 @@
 		<level name="tomcat" value="project"/>
 		<level name="standard-1.1.1" value="project"/>
 		<level name="jstl-1.1.1" value="project"/>
+		<level name="commons-codec-1.3" value="project"/>
+		<level name="http" value="project"/>
+		<level name="iiop" value="project"/>
+		<level name="jade" value="project"/>
 	</levels>
 </component>
